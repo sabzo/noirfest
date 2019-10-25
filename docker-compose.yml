@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build: .   
+    command: "unicorn"
+    environment:
+     - MONGODB_URI=${MONGODB_URI}
+
+    ports:
+      - "8080:8080"
+  mongo:
+    image: "mongo"
