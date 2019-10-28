@@ -1,10 +1,15 @@
-# Sipo  -  Sinatra MongoDB Starter Code
+# Noirfest
+ 
+## NOIRFest
 
-## API
-Sipo uses Sinatra framework, warden for Authentication
+NOIRFest uses Sinatra framework, unicorn, and warden for Authentication
 [Warden](http://github.com/hassox/warden) and MongoDB for storage.
 
-This is simply minimalistic starter code to be used for a simple Ruby MongoDB web-app.
+
+### AWS Server
+* update: `sudo apt-get update -y`
+* install docker: `sudo apt install docker.io -y`
+* install docker-compose: `sudo apt-get install docker docker-compose -y`
 ## Usage (in irb shell for example)
 
 ```ruby
